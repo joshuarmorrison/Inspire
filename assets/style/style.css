@@ -15,7 +15,33 @@ background-blend-mode: multiply;
 }
 .clock {
     color: white;
-    font-size: 70pt;
-    position: relative;
+    font-size: 120pt;
+    padding: -15px;
     
+    
+}
+.name{
+    color: white;
+    font-size: 20pt;
+    padding: 5px;
+}
+.to-do{
+    color: white;
+    font-size: 20pt;
+    padding: 5px;
+}
+.inp {
+    border:none;
+    border-bottom: 3px solid #ffffff;
+    padding: 10px 10px;
+    outline: none;
+    background-color: transparent;
+ }
+.card{
+    color: white;
+    background-color: transparent;
+
+}
+.img-tag{
+    color: white;
 }
