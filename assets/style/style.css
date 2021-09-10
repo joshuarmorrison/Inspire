@@ -1,0 +1,21 @@
+/* BASIC STYLES HERE */
+.bgImage {
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: multiply;
+}
+.quote{
+    color: white
+}
+.weather{
+    color: white;
+
+}
+.clock {
+    color: white;
+    font-size: 70pt;
+    position: relative;
+    
+}
