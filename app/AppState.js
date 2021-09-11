@@ -1,6 +1,4 @@
 // @ts-nocheck
-
-
 import { EventEmitter } from "./Utils/EventEmitter.js"
 import { isValidProp } from "./Utils/isValidProp.js"
 
@@ -8,6 +6,7 @@ class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = []
   bgimage = ''
+  weather = []
 }
 
 export const ProxyState = new Proxy(new AppState(), {
