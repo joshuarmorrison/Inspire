@@ -5,9 +5,9 @@ export class quotes {
     }
     get Template(){
         return /*html*/ `
-        <p>
+        <p class="author">
        ${this.content}
       </p>
-      <h6>${this.author}</h6>`
+      <h6 class="hide">${this.author}</h6>`
     }
 }
