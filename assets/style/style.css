@@ -37,6 +37,7 @@ background-blend-mode: multiply;
     outline: none;
     background-color: transparent;
     color: white;
+    min-width: 35vw;
  }
 .card{
     color: white;
