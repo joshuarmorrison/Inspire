@@ -1,4 +1,5 @@
 import { ProxyState } from "../AppState.js";
+import { Bgimage } from "../Models/BgImage.js";
 // @ts-ignore
 const bgimageApi = axios.create({
   baseURL: "https://bcw-sandbox.herokuapp.com/api"
@@ -11,7 +12,7 @@ class BackgroundService  {
   }
   async getBackgroundImage(){
     let res = await bgimageApi.get('images')
-    ProxyState.bgimage = res.data.largeImgUrl
+    ProxyState.bgimage = new Bgimage(res.data)
   }
 }
 
