@@ -9,7 +9,7 @@ function _drawTask(){
     document.getElementById('counter').innerHTML = `${others.length} / ${ProxyState.task.length}`
 }
 
-
+debugger
 export class TaskController {
     constructor(){
         ProxyState.on("task", _drawTask)
