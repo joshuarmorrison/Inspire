@@ -59,3 +59,20 @@ background-blend-mode: multiply;
 .author:hover+.hide{
     display:block;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.input{
+    color: white;
+    background-color: transparent;
+}

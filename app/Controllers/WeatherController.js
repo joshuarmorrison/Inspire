@@ -11,7 +11,7 @@ function _tempConverter(temp){
     let newtemp = Math.round(((temp - 273.15)*1.8)+32)
     // @ts-ignore
     ProxyState.weather.temp = newtemp
-    ProxyState.weather = ProxyState.weather
+    ProxyState.weather = ProxyState.weather 
     
 }
 
