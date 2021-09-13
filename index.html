@@ -45,27 +45,30 @@
           <h1 class="clock mb-0 mt-5"></h1>
           <h3 class="name">Hello, Josh</h3>
           <h4 class="to-do">What would you like to do?</h4>
-          <form onsubmit="app.taskController.addTask()">
-            <label for="description" class=""></label>
-            <input name="description" id="description" class="input" type="text" required placeholder="New Task">
-            <button class="btn btn-dark" type="submit">Add</button>
+
         </div>
-        </form>
       </div>
-    </div>
-    <div class="row p-5">
-      <div class="col-9 p-2 img-tag" id="img">
-      </div>
-      <div class="col-lg-3 d-flex justify-content-end card shadow">
-        <div class="col m-3 order-md-1 order-sm-4">
-          <div class="card">
-            <div class="card-header">
-              <h5>Tasks to do:</h5>
-              <p id="counter">
-              </p>
-            </div>
-            <div class="card-body">
-              <div id="task"></div>
+      <div class="row p-5">
+        <div class="col-9 p-2 img-tag" id="img">
+        </div>
+        <div class="col-lg-3 d-flex justify-content-end card shadow">
+          <div class="col m-3 order-md-1 order-sm-4">
+            <div class="card">
+              <div class="card-header">
+                <h5>Tasks to do:</h5>
+                <p id="counter">
+                </p>
+              </div>
+              <div class="card-body">
+                <div id="task">
+                  <form onsubmit="app.taskController.addTask()">
+                    <label for="description" class=""></label>
+                    <input name="description" id="description" class="input" type="text" required
+                      placeholder="New Task">
+                    <button class="btn btn-dark" type="submit">Add</button>
+                </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
